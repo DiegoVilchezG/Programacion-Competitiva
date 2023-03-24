@@ -19,7 +19,7 @@ bool sort3(tuple<int, int, int> a, tuple<int, int, int> b)
 	{
 		sort2(a, b);
 	}
-	return false;
+	return (get<2>(a) < get<2>(b));
 }
 int main()
 {
